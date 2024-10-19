@@ -7,6 +7,7 @@ import Projects from "./Projects/Projects";
 import ProjectsPage from "./Projects/projectsPage";
 import { AnimatedBackground } from 'animated-backgrounds';
 import { useState, useEffect } from 'react'
+import Popup from "./PopUp/Popup";
 
 
 function App() {

@@ -4,6 +4,7 @@ const myprojects = [
         title: "Hydraforce",
         tools: ["HTML", "SCSS", "JavaScript", "Bootstrap"],
         image: "./projects/project-1.png",
+        desc: "A website for a company that sells hydraulic valves and manifold systems.",
         link: "/",
     }, 
     {
