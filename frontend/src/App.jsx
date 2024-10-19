@@ -7,8 +7,6 @@ import Projects from "./Projects/Projects";
 import ProjectsPage from "./Projects/projectsPage";
 import { AnimatedBackground } from 'animated-backgrounds';
 import { useState, useEffect } from 'react'
-import Popup from "./PopUp/Popup";
-
 
 function App() {
   const [navbarstate, setNavbarstate] = useState('home')
@@ -42,10 +40,7 @@ function App() {
           </div>
           <div className="h-[4rem] custom-bg-fade relative z-20 translate-y-1"></div>
           <div className="bg-[#020711] z-20 relative">
-          
-          
             <Projects setNavbarstate = {setNavbarstate} scrolltop = {scrollToTop} />
-
             <Skills />
             
           </div>
@@ -53,7 +48,7 @@ function App() {
       }
       {
         navbarstate === 'projects' &&
-        <div className="z-20 relative pt-16">
+        <div className="z-[25] relative pt-16">
           <ProjectsPage />
         </div>
       }

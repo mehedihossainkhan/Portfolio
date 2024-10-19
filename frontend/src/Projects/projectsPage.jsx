@@ -19,7 +19,7 @@ const ProjectsPage = () => {
       }, []);
 
     return (
-        <div className="z-20 relative">
+        <div className="z-[25] relative">
             <div className="container sm:px-10 m-auto px-5 flex items-center flex-col py-10 pb-20">
                 <div>
                     <h1 className="text-4xl font-bold">Projects</h1>

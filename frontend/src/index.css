@@ -64,3 +64,22 @@ body{
 
 }
 
+
+.swiper-button-disabled {
+    opacity: 0.5; /* Makes the button semi-transparent */
+     /* Optional: change background color */
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 5px;
+  border-radius: 60px;
+  margin: 0;
+  opacity: 1;
+
+}
+.swiper-pagination-bullet-active {
+  background-color: white;
+  @apply shadow-md shadow-slate-800
+
+}

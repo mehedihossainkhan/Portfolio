@@ -119,6 +119,13 @@ const myprojects = [
         image: "./projects/project-17.png",
         link: "/",
     }, 
+    {
+        id: 18,
+        title: "BillySol",
+        tools: ["HTML", "SCSS", "JavaScript", "Bootstrap"],
+        image: "./projects/project-18.png",
+        link: "/",
+    }, 
 ] 
 
 export default myprojects;
