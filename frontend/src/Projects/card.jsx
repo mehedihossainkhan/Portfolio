@@ -21,12 +21,12 @@ const Card = ({project, index}) => {
                 setIsOpen(false)
                 console.log('closed')
             }}>
-                <div key={index} className="flex flex-col overflow-scroll">
+                <div key={index} className="flex flex-col overflow-auto">
                     <div className="w-full flex justify-center items-center rounded overflow-hidden flex-shrink-0 px-4">
                         <img src={project.image} alt={project.title} className="cover h-full w-full flex-shrink-0" />
                     </div>
                     <p className='mt-4 text-neutral-400'>Tools Used</p>
-                    <div className="flex items-center gap-3 flex-wrap mt-3">
+                    <div className="flex items-center gap-3 flex-wrap mt-3 pb-1 pl-1">
                         {project.tools.map((tool, index) => {
                             return ( 
                                 <span
