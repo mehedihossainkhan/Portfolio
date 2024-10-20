@@ -51,7 +51,7 @@ function App() {
         observer.unobserve(targetElement);
       }
     };
-  }, []);
+  }, [navbarstate]);
   return (
     <>
       <AnimatedBackground animationName="starryNight" style = {{

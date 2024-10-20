@@ -1,4 +1,6 @@
 const HangingNav = ({navbarstate, setNavbarstate, showHangingNav}) => {
+    console.log(showHangingNav)
+    console.log(navbarstate)
   return (
     <div className={`fixed inset-x-0 z-30 w-[17.5rem] left-1/2 translate-x-[-50%] ${ navbarstate === "home" && !showHangingNav ? "md:block hidden" : ""}`}>
         <div className="flex-shrink-0">

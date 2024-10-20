@@ -21,6 +21,26 @@ body{
   color: white;
 }
 
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #14152e; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #262446; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #322d49; 
+}
+
 .top {
   animation: rotate 15s infinite linear;
 }
