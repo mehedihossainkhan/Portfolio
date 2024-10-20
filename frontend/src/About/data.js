@@ -2,9 +2,9 @@
 const data = {
     about: "I'm a passionate front-end web developer with 1.5 years of experience in building responsive and dynamic websites. Proficient in HTML, CSS, SASS, WordPress ,Web-flow , and Next.js, I have successfully completed over 40 projects, focusing on clean code and seamless user experiences. A self-learner and problem-solver, I'm always eager to expand my skill set and stay updated with the latest trends in web development.",
 
-    facebook: "/",
+    facebook: "https://www.facebook.com/profile.php?id=100013142346494&mibextid=ZbWKwL",
     linkedin: "/",
-    github: "/",
+    github: "https://github.com/mehedihossainkhan",
     twitter: "/",
     email: "mdmahadi344@gmail.com",
 

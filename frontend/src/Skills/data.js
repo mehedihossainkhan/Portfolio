@@ -43,6 +43,10 @@ const Skill ={
         {
             "name": "MySQL",
             "icon": "./Icons/mysql.png",
+        },
+        {
+            "name":"Github",
+            "icon":"./Icons/github.png"
         }
     ]
 }

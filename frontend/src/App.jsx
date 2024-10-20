@@ -5,7 +5,6 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import ProjectsPage from "./Projects/projectsPage";
-import AboutMe from "./About/AboutMe";
 import Footer from "./Footer/Footer";
 import { AnimatedBackground } from 'animated-backgrounds';
 import { useState, useEffect,  useRef  } from 'react'
