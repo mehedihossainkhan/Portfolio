@@ -47,6 +47,10 @@ const Skill ={
         {
             "name":"Github",
             "icon":"./Icons/github.png"
+        },
+        {
+            "name":"Webflow",
+            "icon":"./Icons/webflow.jpg"
         }
     ]
 }

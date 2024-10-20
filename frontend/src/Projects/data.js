@@ -125,6 +125,77 @@ const myprojects = [
         image: "./projects/project-18.png",
         link: "/",
     }, 
+    {
+        id: 19,
+        title: "Rating Matters",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-19.png",
+
+    },
+    {
+        id: 20,
+        title: "ChargeReady",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-20.jpg",
+        link: "/",
+    },
+    {
+        id: 21,
+        title: "Four Seasons",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-21.png",
+        link: "/",
+    },
+    {
+        id: 22,
+        title: "Banana Split",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-22.jpg",
+        link: "/",
+    },
+    {
+        id: 23,
+        title: "Energypreneurs",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-23.png",
+        link: "/",
+    },
+    {
+        id: 24,
+        title: "Kreati Studio",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-24.png",
+        link: "/",
+    },
+    {
+        id: 25,
+        title: "Sylhet Association of Regina Inc.",
+        tools: ["HTML", "CSS", "WordPress"],
+        image: "./projects/project-25.png",
+        link: "/",
+    },
+    {
+        id: 26,
+        title: "0mah",
+        tools: ["Webflow"],
+        image: "./projects/project-26.png",
+        link: "/",
+    },
+    {
+        id: 27,
+        title: "Source my Talent",
+        tools: ["Webflow"],
+        image: "./projects/project-27.png",
+        link: "/",
+    },
+    {
+        id: 28,
+        title: "Hebrew Dashboard Design",
+        tools: ["HTML", "CSS", "SCSS" ,"JavaScript"],
+        image: "./projects/project-28.png",
+        link: "/",
+    },
+    
 ] 
 
 export default myprojects;
