@@ -38,8 +38,13 @@ const Card = ({project, index}) => {
                             );
                         })}
                     </div>
-                    <p className='mt-4 text-neutral-400'>Description</p>
-                    <p className='text-neutral-300 mt-3'>{project.desc}</p>
+                    {
+                        project.description && 
+                        <>
+                            <p className='mt-4 text-neutral-400'>Description</p>
+                            <p className='mt-3 text-neutral-300'>{project.description}</p>
+                        </>
+                    }
                 </div>
             </Popup>
         </div>
